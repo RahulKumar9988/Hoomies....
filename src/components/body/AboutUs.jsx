@@ -12,7 +12,7 @@ function AboutUs() {
           <p className='text-3xl md:text-5xl text-center'>
             "Welcome to 
             <span className='text-green-300 font-semibold'>
-              <span className='text-4xl md:text-7xl text-green-500'>H</span>oomies..
+              <span className='text-4xl md:text-7xl text-green-500 ml-2'>H</span>oomies..
             </span>"
           </p>
           <p className='text-lg md:text-2xl'>

@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import './App.css';
 import Loder from './components/Loder';
+import Signin from './components/pages/Signin';
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -39,6 +40,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={loading ? <Loder/> : <Dashboard />} />
+          <Route path="/signin" element= {<Signin />} />
+
         </Routes>
       </BrowserRouter>
 
