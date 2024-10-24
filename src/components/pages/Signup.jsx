@@ -1,7 +1,6 @@
 import React from "react";
 import Button_Hover from "../heroSection/Button_Hover";
 import Button from "../navbar/Button";
-import { Link } from "react-router-dom";
 
 
 // Plain React component using Tailwind CSS
@@ -38,6 +37,18 @@ export default function Signin() {
                 </div>
                 </div>
 
+                <div className="grid gap-2">
+                <label htmlFor="username" className="text-sm font-medium">
+                    User Name
+                </label>
+                <input
+                    id="Usernaem"
+                    type="text"
+                    placeholder="Rahul kumar"
+                    className="w-full px-3 py-2 border border-gray-300 rounded"
+                />
+                </div>
+
                 {/* Email Input */}
                 <div className="grid gap-2">
                 <label htmlFor="email" className="text-sm font-medium">
@@ -46,7 +57,7 @@ export default function Signin() {
                 <input
                     id="email"
                     type="email"
-                    placeholder="m@example.com"
+                    placeholder="rola@mail.com"
                     className="w-full px-3 py-2 border border-gray-300 rounded"
                 />
                 </div>
@@ -69,11 +80,6 @@ export default function Signin() {
                 Create account
                 </button>
             </div>
-            <div className="flex gap-2 text-center justify-center"> 
-                Already have an account
-                <Link to="/signup" className="font-semibold">:Signup</Link>
-            </div>
-            
         </div>
     </div>
   );

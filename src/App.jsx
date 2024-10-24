@@ -4,6 +4,8 @@ import Dashboard from './components/Dashboard';
 import './App.css';
 import Loder from './components/Loder';
 import Signin from './components/pages/Signin';
+import Signup from './components/pages/Signup';
+
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -41,6 +43,8 @@ function App() {
         <Routes>
           <Route path="/" element={loading ? <Loder/> : <Dashboard />} />
           <Route path="/signin" element= {<Signin />} />
+          <Route path="/signup" element= {<Signup />} />
+
 
         </Routes>
       </BrowserRouter>
