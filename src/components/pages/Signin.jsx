@@ -1,6 +1,4 @@
 import React from "react";
-import Button_Hover from "../heroSection/Button_Hover";
-import Button from "../navbar/Button";
 import { Link } from "react-router-dom";
 
 

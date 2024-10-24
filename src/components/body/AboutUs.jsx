@@ -1,6 +1,4 @@
 import React from 'react'
-
-
 function AboutUs() {
   return (
     <div className=' text-white h-[70vh] p-4 mt-44 md:h-[80vh]'>
