@@ -6,7 +6,7 @@ import Button from "../navbar/Button";
 // Plain React component using Tailwind CSS
 export default function Signin() {
   return (
-    <div className="flex justify-center items-center h-screen ">
+    <div className="flex justify-center items-center h-[100vh] ">
         <div className="max-w-md mx-auto p-4 bg-white rounded-2xl shadow-3xl shadow-green-600">
             <div className="space-y-1">
                 <h2 className="text-2xl font-bold">Create an account</h2>
