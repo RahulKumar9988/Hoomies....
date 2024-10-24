@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../navbar/Button';
 import Button_Hover from './Button_Hover';
 import BgEff from './BgEff';
+import { Link } from 'react-router-dom';
 
 
 function HeroSection() {
@@ -20,7 +21,8 @@ function HeroSection() {
       {/* Responsive buttons */}
       <div className='flex gap-3 flex-wrap justify-center z-10 '>
         <Button name="Explore" />
-        <Button_Hover name="Contact Us" />
+        
+        <Link to="/signin">{<Button_Hover name="Sigin In" />}</Link>
       </div>
 
       {/* Responsive images */}
