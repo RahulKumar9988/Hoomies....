@@ -24,7 +24,7 @@ function HeroSection() {
       </div>
 
       {/* Responsive images */}
-      <div className='grid grid-cols-1 md:grid-cols-5 justify-center gap-4 '>
+      <div className='papa_card grid grid-cols-1 md:grid-cols-5 justify-center gap-4 '>
         {/* Card 1 */}
         <div className="Card relative group h-60 ">
           <img

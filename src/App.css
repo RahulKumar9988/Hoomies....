@@ -92,12 +92,28 @@ body{
     margin-top: -6vh;
     
   }
-  .Card p{
-    font-size: 1.2rem; 
+  .Card:hover p{
+    font-size: 1.2rem;
+    color: #89ff87 !important;
+    transform: perspective(1000px)  scale(1.05);
+    rotate: 90deg;
+    text-align: end;
+
+
   }
-  .Card:nth-child(1):hover{
+  .papa_card .Card:hover{
     z-index: 99;
     
+    
+  }
+  .hero {
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+  }
+  
+  .hero:hover {
+    transform: perspective(1000px) rotateY(10deg) rotateX(20deg) scale(1.05);
+
   }
   
 }

@@ -3,7 +3,7 @@ import './contact.css';
 
 function ContactUs() {
   return (
-    <div className='text-white h-[80vh] mt-10'>
+    <div className='text-white h-[80vh] '>
       <h1 className='text-center text-5xl md:text-7xl font-bold mb-10'>Contact Us</h1>
         <div className='flex flex-col-reverse md:flex-row justify-around items-center'>
 

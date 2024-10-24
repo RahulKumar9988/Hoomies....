@@ -3,7 +3,7 @@ import React from 'react'
 
 function AboutUs() {
   return (
-    <div className=' text-white h-[80vh] p-4 mt-44'>
+    <div className=' text-white h-[70vh] p-4 mt-44 md:h-[80vh]'>
       <h1 className='text-center text-5xl md:text-7xl font-bold mb-6'>About Us</h1>
       <div className='flex flex-col md:flex-row md:justify-between md:gap-10'>
         
