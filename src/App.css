@@ -1,0 +1,103 @@
+body{
+  background-color: black;
+  overflow-x:hidden;
+}
+.heroFont h1{
+   font-family: '"Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif';
+   font-weight: bold;
+}
+.hero_section{
+  position: relative;
+  top:5vh;
+}
+
+
+.hero {
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.hero:hover {
+  transform: perspective(1000px) rotateX(40deg) scale(1.05);
+}
+
+.App {
+  position: relative;
+}
+
+.custom-pointer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  filter: blur(20px); 
+  position: fixed;
+  pointer-events: none; /* Ensures the custom pointer doesn't interfere with clicks */
+  z-index: 9999; /* Ensures the pointer is always on top */
+  transition: transform 0.1s ease-out;
+}
+
+
+.Card:nth-child(1){
+  margin-top: 0vh;
+  
+}
+
+.Card:nth-child(2){
+  margin-top: 15vh;
+}
+
+.Card:nth-child(3){
+  margin-top: 20vh;
+}
+
+.Card:nth-child(4){
+  margin-top: 15vh;
+}
+
+.Card:nth-child(5){
+  margin-top: 0vh;
+}
+
+.Card img:hover{
+  margin-bottom: 10px;
+  scale: 1.1;
+  transition: all ease 0.5s;
+  box-shadow: 0px 0px 20px 4px #89ff87;
+}
+
+.hero_section{
+  background-color: #f787ff;
+}
+
+@media only screen and (max-width: 600px) {
+  .Card:nth-child(1){
+    margin-top: 0vh;
+    
+  }
+  .Card:nth-child(2){
+    margin-top: 0vh;
+    
+  }
+  
+  .Card:nth-child(3){
+    margin-top: -7vh;
+  }
+  
+  .Card:nth-child(4){
+    margin-top: 2vh;
+  }
+  
+  .Card:nth-child(5){
+    margin-top: -6vh;
+    
+  }
+  .Card p{
+    font-size: 1.2rem; 
+  }
+  .Card:nth-child(1):hover{
+    z-index: 99;
+    
+  }
+  
+}
