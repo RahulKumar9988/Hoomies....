@@ -59,7 +59,7 @@ function Footer() {
         <div className="bg-gray-800 bg-opacity-75">
             <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-                <img src="./logo1.png" alt="logo" className='h-5'/>
+                <img src="./logo1.png" alt="logo" className='h-10 md:h-6'/>
             </a>
             <p className="text-sm font-semibold text-gray-400 sm:ml-6 sm:mt-0 mt-4">© 2024 Hoomies... 
                 <a href="/" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@hoomies...</a>

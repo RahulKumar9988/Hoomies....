@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import './App.css';
+import Loder from './components/Loder';
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -37,7 +38,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={loading ? <div>Loading...</div> : <Dashboard />} />
+          <Route path="/" element={loading ? <Loder/> : <Dashboard />} />
         </Routes>
       </BrowserRouter>
 
