@@ -71,7 +71,7 @@ export default function Signin() {
             </div>
             <div className="flex gap-2 text-center justify-center"> 
                 Already have an account
-                <Link to="/signup" className="font-semibold">:Signup</Link>
+                <Link to="/signup" className="font-semibold">:SignUp</Link>
             </div>
             
         </div>
