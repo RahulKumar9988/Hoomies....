@@ -27,7 +27,7 @@ function App() {
     // Decreased delay to 1 second before changing loading state to false
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // 1-second delay
+    }, 1000); // 1-second delay
 
     // Clean up the timer when component is unmounted
     return () => clearTimeout(timer);

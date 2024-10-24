@@ -28,7 +28,7 @@ function HeroSection() {
         {/* Card 1 */}
         <div className="Card relative group h-60 ">
           <img
-            src="./img1.jpg"
+            src="./4.jpg"
             alt=""
             className="hero h-80 w-64 sm:h-72 sm:w-48 md:h-80 md:w-56 lg:h-96 lg:w-64 rounded-3xl border"
             loading="lazy"
@@ -41,7 +41,7 @@ function HeroSection() {
         {/* Card 2 */}
         <div className="Card relative group h-60">
           <img
-            src="./4.jpg"
+            src="./img1.jpg"
             alt=""
             className="hero h-80 w-64 sm:h-72 sm:w-48 md:h-80 md:w-56 lg:h-96 lg:w-64 rounded-3xl border"
             loading="lazy"
@@ -67,7 +67,7 @@ function HeroSection() {
         {/* Card 4 */}
         <div className="Card relative group h-60" >
           <img
-            src="./3.jpg"
+            src="./5.jpg"
             alt=""
             className="hero  h-80 w-64 sm:h-72 sm:w-48 md:h-80 md:w-56 lg:h-96 lg:w-64 rounded-3xl border"
             loading="lazy"
@@ -80,7 +80,7 @@ function HeroSection() {
         {/* Card 5 */}
         <div className="Card relative group h-60">
           <img
-            src="./5.jpg"
+            src="./3.jpg"
             alt=""
             className="hero  h-80 w-64 sm:h-72 sm:w-48 md:h-80 md:w-56 lg:h-96 lg:w-64 rounded-3xl border"
             loading="lazy"
