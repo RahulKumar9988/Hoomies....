@@ -62,7 +62,7 @@ function Footer() {
                 <img src="./logo1.png" alt="logo" className='h-10 md:h-6'/>
             </a>
             <p className="text-sm font-semibold text-gray-400 sm:ml-6 sm:mt-0 mt-4">© 2024 Hoomies... 
-                <a href="/" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@hoomies...</a>
+                <a href="/" className="text-gray-500 ml-1"  rel="noopener noreferrer">@hoomies...</a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                 <a className="text-gray-400">

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Home from '../pages/home/Home';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,16 +29,16 @@ export default function Navbar() {
         }`}
       >
         <li className='p-2 md:p-0 md:text-xl text-center  md:border-none border-white'>
-          Home
+          <Link to='/home' element={<Home/>}>Home</Link> 
         </li>
         <li className='p-2 md:p-0 md:text-xl text-center  md:border-none border-white'>
-          Contact
+          <Link to='/home' element={<Home/>}>About</Link>
         </li>
         <li className='p-2 md:p-0 md:text-xl text-center  md:border-none border-white'>
-          About
+          <Link to='/home' element={<Home/>}>Sponsers</Link>
         </li>
         <li className='p-2 md:p-0 md:text-xl text-center'>
-          Explore
+          <Link to='/home' element={<Home/>}>Contact us</Link> 
         </li>
       </ul>
     </nav>

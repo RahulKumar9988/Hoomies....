@@ -5,6 +5,8 @@ import './App.css';
 import Loder from './components/Loder';
 import Signin from './components/pages/Signin';
 import Signup from './components/pages/Signup';
+import Home from './components/pages/home/Home.jsx';
+
 
 
 function App() {
@@ -43,7 +45,9 @@ function App() {
         <Routes>
           <Route path="/" element={loading ? <Loder/> : <Dashboard />} />
           <Route path="/signin" element= {<Signin />} />
-          <Route path="/signup" element= {<Signup />} />
+          <Route path="/signup" element= {<Signup />} /> 
+          <Route path="/home" element= {<Home/>} /> 
+
 
 
         </Routes>
